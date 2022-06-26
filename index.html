@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <!-- Bootstarp -->
+        <link rel="stylesheet" href="./css/bootstrap-grid.css">
+        <!-- Main Style -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+    <body>
+        <div class="dashboard">
+            <div class="dashboard-navigation">
+                <a href="" class="dashboard-logo">
+                    <img src="./img/ps.jpg" alt="">
+                </a>
+
+                <ul class="dashboard-menu">
+                    <!-- Render Dynamically -->
+                </ul>
+
+            </div>
+
+            <div class="dashboard-container">
+                <div class="dashboard-body">
+                    <div class="dashboard-main">
+                        <div class="scrollable">
+                            <div class="dashboard-header">
+                                <div class="max-container">
+                                    <div class="dashboard-header-inner">
+                                        <div class="dashboard-search">
+                                            <div class="dashboard-search-icon">
+                                                <ion-icon name="search"></ion-icon>
+                                            </div>
+                                            <input type="search" placeholder="Search..." autocomplete="off" class="dashboard-search-input">
+                                        </div>
+
+                                        <button class="menu-burger styled" id="handleSidebar">
+                                            <span></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="max-container">
+                                <div class="dashboard-main-hero">
+
+                                    <div class="hero-light-box">
+                                        <div class="hero-light"></div>
+                                    </div>
+
+                                    <div class="row gy-4">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div class="dashboard-hero-content">
+                                                <span class="hero-badge">new</span>
+                                                <h2 class="hero-title">Marvel's Spider-Man: <br /> Miles Morles</h2>
+                                                <div class="hero-purchase-card">
+                                                    <span class="purchase-card-price">&euro;69.00</span>
+                                                    <button class="purchase-card-btn">purchase</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-6 col-lg-6 p-relative">
+                                            <img src="./img/spider.png" class="hero-img" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <section class="dashboard-section">
+                                    <div class="section-header">
+                                        <h3 class="section-title">Most played games</h3>
+                                        <ul class="section-pager">
+                                            <li class="pager-item active"></li>
+                                            <li class="pager-item"></li>
+                                            <li class="pager-item"></li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="section-slider-container">
+                                        <div class="row gy-4">
+                                            <!-- Render dynamically-->
+                                        </div>
+                                    </div>
+                                </section>
+    
+                                <section class="dashboard-section">
+                                    <div class="row gy-4">
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="section-accessory-card">
+                                                <div class="accessory-header">
+                                                    <h3 class="accessory-card-title">Accessories</h3>
+    
+                                                    <button class="accessory-card-icon">
+                                                        <ion-icon name="arrow-forward"></ion-icon>
+                                                    </button>
+                                                </div>
+
+                                                <div class="accessory-item">
+                                                    <img src="./img/headphone.png" alt="" class="item-image">
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-sm-12 col-md-8">
+                                            <div class="section-library-card">
+
+                                                <div class="library-header">
+                                                    <h3 class="library-card-title">Library</h3>
+                                                    <button class="library-card-icon">
+                                                        <ion-icon name="arrow-forward"></ion-icon>
+                                                    </button>
+                                                </div>
+    
+                                                <div class="library-container">
+                                                    <div class="library-items">
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="library-item">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4 d-flex align-items-center">
+                                                                            <img src="./img/bg.jpeg" alt="" class="item-img">
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <h3 class="item-title">Cyberpunk</h3>
+                                                                            <p class="item-genre">PS4</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="col-6">
+                                                                    <div class="row align-items-center gx-1 gy-2">
+                                                                        <div class="col-sm-12 col-md-4">
+                                                                            <p class="item-date">12 Dec</p>
+                                                                            <p class="item-genre item-year">2020</p>
+                                                                        </div>
+    
+                                                                        <div class="col-sm-12 col-md-8">
+                                                                            <a href="" class="item-download-btn">Download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="dashboard-sidebar">
+                        <div class="scrollable">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <button id="dashboardClose" class="library-card-icon sm-show">
+                                    <ion-icon name="arrow-forward"></ion-icon>
+                                </button>
+
+                                <ul class="d-flex align-items-center justify-content-end sidebar-options">
+                                    <li>
+                                        <button class="sidebar-item">
+                                            <ion-icon name="notifications"></ion-icon>
+                                        </button>
+                                    </li>
+    
+                                    <li>
+                                        <button class="sidebar-item">
+                                            <ion-icon name="cart"></ion-icon>
+                                        </button>
+                                    </li>
+    
+                                    <li>
+                                       <div class="sidebar-avater">
+                                            <img src="./img/bg.jpeg" class="social-avater" alt="">
+                                       </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="sidebar-main">
+
+                                <div class="hero-light-box">
+                                    <div class="hero-light light-white"></div>
+                                </div>
+
+                                <div class="sidebar-header d-flex justify-content-between">
+                                    <div class="section-title">Social</div>
+
+                                    <button class="sidebar-icon-btn">
+                                        <ion-icon name="chevron-down"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="sidebar-networking">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="networking-details">
+                                            <h3 class="networking-title">Rocket League update</h3>
+                                            <p class="networking-time">6mins remaining</p>
+                                        </div>
+
+                                        <div class="networking-loading">
+                                            <span class="loading-value">45&percnt;</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sidebar-social">
+                                    <div class="social-title">Online </div>
+
+                                    <div class="social-items">
+                                        <!-- Render Dynamically -->
+                                    </div>
+                                </div>
+
+                                <div class="sidebar-social">
+                                    <div class="social-title">Parties </div>
+
+                                    <div class="social-items">
+                                        <div class="social-item">
+                                            <img src="./img/bg.jpeg" alt="" class="social-avater">
+                                            <div class="social-details">
+                                                <h3 class="social-name">James Smith</h3>
+                                                <p class="social-status">Watching rocket league</p>
+                                            </div>
+
+                                            <ul class="parties-avatars">
+                                               <li class="avater-item" style="--num: 1;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 2;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 3;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item">
+                                                    7+
+                                               </li> 
+                                            </ul>
+                                        </div>
+
+                                        <div class="social-item">
+                                            <img src="./img/bg.jpeg" alt="" class="social-avater">
+                                            <div class="social-details">
+                                                <h3 class="social-name">James Smith</h3>
+                                                <p class="social-status">Watching rocket league</p>
+                                            </div>
+
+                                            <ul class="parties-avatars">
+                                               <li class="avater-item" style="--num: 1;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 2;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 3;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item">
+                                                    7+
+                                               </li> 
+                                            </ul>
+                                        </div>
+
+                                        <div class="social-item">
+                                            <img src="./img/bg.jpeg" alt="" class="social-avater">
+                                            <div class="social-details">
+                                                <h3 class="social-name">James Smith</h3>
+                                                <p class="social-status">Watching rocket league</p>
+                                            </div>
+
+                                            <ul class="parties-avatars">
+                                               <li class="avater-item" style="--num: 1;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 2;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 3;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item">
+                                                    7+
+                                               </li> 
+                                            </ul>
+                                        </div>
+
+                                        <div class="social-item">
+                                            <img src="./img/bg.jpeg" alt="" class="social-avater">
+                                            <div class="social-details">
+                                                <h3 class="social-name">James Smith</h3>
+                                                <p class="social-status">Watching rocket league</p>
+                                            </div>
+
+                                            <ul class="parties-avatars">
+                                               <li class="avater-item" style="--num: 1;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 2;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item" style="--num: 3;">
+                                                    <img src="./img/bg.jpeg" alt="">
+                                               </li> 
+
+                                               <li class="avater-item">
+                                                    7+
+                                               </li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sidebar-message-box">
+
+                                    <div class="hero-light-box">
+                                        <div class="hero-light light-white"></div>
+                                    </div>
+
+                                    <div class="message-upper">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="">
+                                                <p class="message-title">Party Chat</p>
+                                                <h3 class="message-users">Scott Prigmm + 7 others</h3>
+                                            </div>
+
+                                            <div class="d-flex align-items-center">
+                                                <button class="message-btn">
+                                                    <ion-icon name="microphone"></ion-icon>
+                                                </button>
+
+                                                <button class="message-btn">
+                                                    <ion-icon name="phone"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="message-lower">
+                                        <div class="d-flex">
+                                            <input type="text" placeholder="Type a message..." class="message-input">
+                                            <button class="message-btn send-btn">
+                                                <ion-icon name="send"></ion-icon>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

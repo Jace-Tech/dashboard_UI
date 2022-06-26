@@ -1,0 +1,75 @@
+{
+    "onlineContacts": [
+        {
+            "name": "Janette McCardy",
+            "status": "Playing God of War 3",
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Peter Bold",
+            "status": "Watch Game of thrones",
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Mary Parks",
+            "status": "Playing The gods are Mads ",
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Jones Miller",
+            "status": "Playing The Shooter",
+            "image": "./img/bg.jpeg"
+
+        }
+    ],
+    
+    "games": [
+        {
+            "name": "God of War",
+            "length": 123,
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Silent Hills",
+            "length": 83,
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Assassin's Creed Brotherhood",
+            "length": 320,
+            "image": "./img/bg.jpeg"
+        },
+        {
+            "name": "Watch Dogs",
+            "length": 673,
+            "image": "./img/bg.jpeg"
+        }
+    ],
+
+    "navItem": [
+        {
+            "name": "home",
+            "icon": "home-sharp"
+        },
+        {
+            "name": "work",
+            "icon": "briefcase"
+        },
+        {
+            "name": "games",
+            "icon": "game-controller"
+        },
+        {
+            "name": "images",
+            "icon": "camera"
+        },
+        {
+            "name": "charts",
+            "icon": "pie-chart"
+        },
+        {
+            "name": "gamers",
+            "icon": "people"
+        }
+    ]
+}
